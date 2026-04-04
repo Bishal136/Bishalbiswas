@@ -9,6 +9,7 @@ import express from '../assets/express.svg'
 import mongo from '../assets/mongodb.svg'
 import git from '../assets/git.svg'
 import C from '../assets/c.svg'
+import Mysql from '../assets/mysql.svg'
 
 const skills = [
     { src: html, label: 'HTML5' },
@@ -20,7 +21,8 @@ const skills = [
     { src: express, label: 'Express' },
     { src: mongo, label: 'Mongodb' },
     { src: git, label: 'Git & Github' },
-    { src: C, label: "C program" }
+    { src: C, label: "C program" },
+    { src: Mysql, label: "My SQL"}
 ]
 
 export const Skills1 = () => {
