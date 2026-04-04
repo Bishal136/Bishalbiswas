@@ -1,9 +1,10 @@
 import React from 'react'
 import Navigation from './Navigation'
 import AboutMe from './AboutMe'
-import { Skills } from './Skills'
+// import { Skills } from './Skills'
 // import Protfolio from './Protfolio'
 import Protfolio1 from './Protfolio1'
+import { Skills1 } from './Skills1'
 
 
 const MainContent = () => {
@@ -17,8 +18,10 @@ const MainContent = () => {
             <AboutMe />
 
             {/*  skills section */}
-            <Skills />
-            {/* Portfolio  */}
+            
+            <Skills1/>
+            
+            {/* Portfolio SECTION  */}
             <Protfolio1/>
         
         </div>
