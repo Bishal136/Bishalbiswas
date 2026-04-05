@@ -5,7 +5,7 @@ const Portfolio1 = () => {
     const projects = [
         {
             id: 3,
-            title: "Multi Page Website",
+            title: "Multi Page Website ",
             description: "Full responsive website.",
             image: 'p3.png',
             technologies: ["React js", "Tailwind CSS"],
