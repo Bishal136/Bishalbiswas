@@ -6,7 +6,7 @@ const Portfolio1 = () => {
         {
             id: 3,
             title: "Multi Page Website ",
-            description: "Full responsive website.Mobile respons",
+            description: "Full responsive website.",
             image: 'p3.png',
             technologies: ["React js", "Tailwind CSS"],
             liveLink: "https://projectresponsi.netlify.app/",
