@@ -4,6 +4,16 @@ const Portfolio1 = () => {
     // Project data array with links
     const projects = [
         {
+            id: 3,
+            title: "Multi Page Website",
+            description: "Experience the power of speed with our cutting-edge hosting infrastructure.",
+            image: 'p3.png',
+            technologies: ["React js", "Tailwind CSS"],
+            liveLink: "https://projectresponsi.netlify.app/",
+            // githubLink: "https://github.com/username/ecommerce",
+            isExternal: true
+        },
+        {
             id: 1,
             title: "Unique Hosting",
             description: "Experience the power of speed with our cutting-edge hosting infrastructure.",
@@ -108,7 +118,7 @@ const Portfolio1 = () => {
                                         rel={project.isExternal ? "noopener noreferrer" : ""}
                                         className="inline-flex items-center gap-1 text-sm text-[#FFBF00] hover:text-yellow-400 transition-colors duration-300 group/link"
                                     >
-                                        View Website 
+                                        View Website
                                         <span className="group-hover/link:translate-x-1 transition-transform">→</span>
                                     </a>
                                 )}
